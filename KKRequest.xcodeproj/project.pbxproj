@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002BF97CE47B81E09F561909 /* libPods-KKRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7818032A1ACC8D9A181B562C /* libPods-KKRequest.a */; };
+		3C5B01C71DA8C9B0001B27BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01C61DA8C9B0001B27BE /* main.m */; };
+		3C5B01CA1DA8C9B0001B27BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01C91DA8C9B0001B27BE /* AppDelegate.m */; };
+		3C5B01CD1DA8C9B0001B27BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01CC1DA8C9B0001B27BE /* ViewController.m */; };
+		3C5B01D01DA8C9B0001B27BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B01CE1DA8C9B0001B27BE /* Main.storyboard */; };
+		3C5B01D21DA8C9B0001B27BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B01D11DA8C9B0001B27BE /* Assets.xcassets */; };
+		3C5B01D51DA8C9B0001B27BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B01D31DA8C9B0001B27BE /* LaunchScreen.storyboard */; };
+		3C5B01EE1DA8C9ED001B27BE /* KKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01DF1DA8C9ED001B27BE /* KKRequest.m */; };
+		3C5B01EF1DA8C9ED001B27BE /* KKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01E31DA8C9ED001B27BE /* KKRequestManager.m */; };
+		3C5B01F01DA8C9ED001B27BE /* SerBackCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01E71DA8C9ED001B27BE /* SerBackCodeModel.m */; };
+		3C5B01F11DA8C9ED001B27BE /* NSAnaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01EA1DA8C9ED001B27BE /* NSAnaCode.m */; };
+		3C5B01F21DA8C9ED001B27BE /* SerBackDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B01ED1DA8C9ED001B27BE /* SerBackDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08B38C4444B43D17DAFDC946 /* Pods-KKRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKRequest/Pods-KKRequest.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5B01C21DA8C9B0001B27BE /* KKRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5B01C61DA8C9B0001B27BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C5B01C81DA8C9B0001B27BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C5B01C91DA8C9B0001B27BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C5B01CB1DA8C9B0001B27BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C5B01CC1DA8C9B0001B27BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C5B01CF1DA8C9B0001B27BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5B01D11DA8C9B0001B27BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5B01D41DA8C9B0001B27BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C5B01D61DA8C9B0001B27BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5B01DE1DA8C9ED001B27BE /* KKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequest.h; sourceTree = "<group>"; };
+		3C5B01DF1DA8C9ED001B27BE /* KKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequest.m; sourceTree = "<group>"; };
+		3C5B01E01DA8C9ED001B27BE /* KKRequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequestHeader.h; sourceTree = "<group>"; };
+		3C5B01E21DA8C9ED001B27BE /* KKRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequestManager.h; sourceTree = "<group>"; };
+		3C5B01E31DA8C9ED001B27BE /* KKRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequestManager.m; sourceTree = "<group>"; };
+		3C5B01E61DA8C9ED001B27BE /* SerBackCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerBackCodeModel.h; sourceTree = "<group>"; };
+		3C5B01E71DA8C9ED001B27BE /* SerBackCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerBackCodeModel.m; sourceTree = "<group>"; };
+		3C5B01E91DA8C9ED001B27BE /* NSAnaCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAnaCode.h; sourceTree = "<group>"; };
+		3C5B01EA1DA8C9ED001B27BE /* NSAnaCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAnaCode.m; sourceTree = "<group>"; };
+		3C5B01EC1DA8C9ED001B27BE /* SerBackDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerBackDataModel.h; sourceTree = "<group>"; };
+		3C5B01ED1DA8C9ED001B27BE /* SerBackDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerBackDataModel.m; sourceTree = "<group>"; };
+		7818032A1ACC8D9A181B562C /* libPods-KKRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKRequest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A649878C9BAA730EB834B4 /* Pods-KKRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKRequest/Pods-KKRequest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5B01BF1DA8C9B0001B27BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002BF97CE47B81E09F561909 /* libPods-KKRequest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B032F9A790E70AAF8CAF4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B38C4444B43D17DAFDC946 /* Pods-KKRequest.debug.xcconfig */,
+				87A649878C9BAA730EB834B4 /* Pods-KKRequest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C5B01B91DA8C9B0001B27BE = {
+			isa = PBXGroup;
+			children = (
+				3C5B01C41DA8C9B0001B27BE /* KKRequest */,
+				3C5B01C31DA8C9B0001B27BE /* Products */,
+				0B032F9A790E70AAF8CAF4DD /* Pods */,
+				5163A0B199C6735D6906082F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5B01C31DA8C9B0001B27BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01C21DA8C9B0001B27BE /* KKRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5B01C41DA8C9B0001B27BE /* KKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01DC1DA8C9ED001B27BE /* KKRequest */,
+				3C5B01C81DA8C9B0001B27BE /* AppDelegate.h */,
+				3C5B01C91DA8C9B0001B27BE /* AppDelegate.m */,
+				3C5B01CB1DA8C9B0001B27BE /* ViewController.h */,
+				3C5B01CC1DA8C9B0001B27BE /* ViewController.m */,
+				3C5B01CE1DA8C9B0001B27BE /* Main.storyboard */,
+				3C5B01D11DA8C9B0001B27BE /* Assets.xcassets */,
+				3C5B01D31DA8C9B0001B27BE /* LaunchScreen.storyboard */,
+				3C5B01D61DA8C9B0001B27BE /* Info.plist */,
+				3C5B01C51DA8C9B0001B27BE /* Supporting Files */,
+			);
+			path = KKRequest;
+			sourceTree = "<group>";
+		};
+		3C5B01C51DA8C9B0001B27BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01C61DA8C9B0001B27BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5B01DC1DA8C9ED001B27BE /* KKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01DD1DA8C9ED001B27BE /* KKRequest */,
+				3C5B01E01DA8C9ED001B27BE /* KKRequestHeader.h */,
+				3C5B01E11DA8C9ED001B27BE /* KKRequestManager */,
+				3C5B01E41DA8C9ED001B27BE /* SerBackDataAnalysis */,
+			);
+			path = KKRequest;
+			sourceTree = "<group>";
+		};
+		3C5B01DD1DA8C9ED001B27BE /* KKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01DE1DA8C9ED001B27BE /* KKRequest.h */,
+				3C5B01DF1DA8C9ED001B27BE /* KKRequest.m */,
+			);
+			path = KKRequest;
+			sourceTree = "<group>";
+		};
+		3C5B01E11DA8C9ED001B27BE /* KKRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01E21DA8C9ED001B27BE /* KKRequestManager.h */,
+				3C5B01E31DA8C9ED001B27BE /* KKRequestManager.m */,
+			);
+			path = KKRequestManager;
+			sourceTree = "<group>";
+		};
+		3C5B01E41DA8C9ED001B27BE /* SerBackDataAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01E51DA8C9ED001B27BE /* SerBackCodeModel */,
+				3C5B01E81DA8C9ED001B27BE /* SerBackDataAnalysis */,
+				3C5B01EB1DA8C9ED001B27BE /* SerBackDataModel */,
+			);
+			path = SerBackDataAnalysis;
+			sourceTree = "<group>";
+		};
+		3C5B01E51DA8C9ED001B27BE /* SerBackCodeModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01E61DA8C9ED001B27BE /* SerBackCodeModel.h */,
+				3C5B01E71DA8C9ED001B27BE /* SerBackCodeModel.m */,
+			);
+			path = SerBackCodeModel;
+			sourceTree = "<group>";
+		};
+		3C5B01E81DA8C9ED001B27BE /* SerBackDataAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01E91DA8C9ED001B27BE /* NSAnaCode.h */,
+				3C5B01EA1DA8C9ED001B27BE /* NSAnaCode.m */,
+			);
+			path = SerBackDataAnalysis;
+			sourceTree = "<group>";
+		};
+		3C5B01EB1DA8C9ED001B27BE /* SerBackDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B01EC1DA8C9ED001B27BE /* SerBackDataModel.h */,
+				3C5B01ED1DA8C9ED001B27BE /* SerBackDataModel.m */,
+			);
+			path = SerBackDataModel;
+			sourceTree = "<group>";
+		};
+		5163A0B199C6735D6906082F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7818032A1ACC8D9A181B562C /* libPods-KKRequest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5B01C11DA8C9B0001B27BE /* KKRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5B01D91DA8C9B0001B27BE /* Build configuration list for PBXNativeTarget "KKRequest" */;
+			buildPhases = (
+				06246304A2AABC29EDD628F1 /* [CP] Check Pods Manifest.lock */,
+				3C5B01BE1DA8C9B0001B27BE /* Sources */,
+				3C5B01BF1DA8C9B0001B27BE /* Frameworks */,
+				3C5B01C01DA8C9B0001B27BE /* Resources */,
+				9AA18970FE199882454D5BCC /* [CP] Embed Pods Frameworks */,
+				E8AAE594F7551D98776B64B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKRequest;
+			productName = KKRequest;
+			productReference = 3C5B01C21DA8C9B0001B27BE /* KKRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5B01BA1DA8C9B0001B27BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.KK;
+				TargetAttributes = {
+					3C5B01C11DA8C9B0001B27BE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C5B01BD1DA8C9B0001B27BE /* Build configuration list for PBXProject "KKRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5B01B91DA8C9B0001B27BE;
+			productRefGroup = 3C5B01C31DA8C9B0001B27BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5B01C11DA8C9B0001B27BE /* KKRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5B01C01DA8C9B0001B27BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5B01D51DA8C9B0001B27BE /* LaunchScreen.storyboard in Resources */,
+				3C5B01D21DA8C9B0001B27BE /* Assets.xcassets in Resources */,
+				3C5B01D01DA8C9B0001B27BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06246304A2AABC29EDD628F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA18970FE199882454D5BCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKRequest/Pods-KKRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AAE594F7551D98776B64B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKRequest/Pods-KKRequest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5B01BE1DA8C9B0001B27BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5B01EF1DA8C9ED001B27BE /* KKRequestManager.m in Sources */,
+				3C5B01CD1DA8C9B0001B27BE /* ViewController.m in Sources */,
+				3C5B01F11DA8C9ED001B27BE /* NSAnaCode.m in Sources */,
+				3C5B01F21DA8C9ED001B27BE /* SerBackDataModel.m in Sources */,
+				3C5B01F01DA8C9ED001B27BE /* SerBackCodeModel.m in Sources */,
+				3C5B01EE1DA8C9ED001B27BE /* KKRequest.m in Sources */,
+				3C5B01CA1DA8C9B0001B27BE /* AppDelegate.m in Sources */,
+				3C5B01C71DA8C9B0001B27BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C5B01CE1DA8C9B0001B27BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5B01CF1DA8C9B0001B27BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5B01D31DA8C9B0001B27BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5B01D41DA8C9B0001B27BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5B01D71DA8C9B0001B27BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C5B01D81DA8C9B0001B27BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5B01DA1DA8C9B0001B27BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B38C4444B43D17DAFDC946 /* Pods-KKRequest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.KKRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C5B01DB1DA8C9B0001B27BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A649878C9BAA730EB834B4 /* Pods-KKRequest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.KKRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5B01BD1DA8C9B0001B27BE /* Build configuration list for PBXProject "KKRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5B01D71DA8C9B0001B27BE /* Debug */,
+				3C5B01D81DA8C9B0001B27BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5B01D91DA8C9B0001B27BE /* Build configuration list for PBXNativeTarget "KKRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5B01DA1DA8C9B0001B27BE /* Debug */,
+				3C5B01DB1DA8C9B0001B27BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5B01BA1DA8C9B0001B27BE /* Project object */;
+}

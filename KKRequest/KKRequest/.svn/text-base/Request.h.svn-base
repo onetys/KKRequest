@@ -1,0 +1,40 @@
+//
+//  Request.h
+//  PZJY
+//
+//  Created by ebeijia on 16/2/29.
+//  Copyright © 2016年 EBJ. All righUI reserved.
+//
+
+
+@class SerBackDataModel;
+
+typedef enum : NSUInteger {
+    RequestDataResultDealTypeAnalysis,
+    RequestDataResultDealTypeBackOriData ,
+} RequestDataResultDealType; // 当网络请求有错误的时候，处理的方法
+
+
+typedef void (^APICompletion)(NSError *error, id responseData);
+
+
+@interface Request : NSObject
+
+//登陆
++ (void)loginForUserName:(NSString *)userName
+pwd:(NSString *)pwd
+                    data:(void(^)(SerBackDataModel*dataModel))bdata;
+
+
+//注册
++ (void)registerUserName:(NSString *)userName
+pwd:(NSString *)pwd
+                    data:(void(^)(SerBackDataModel*dataModel))bdata;
+
+
+//消息中心
++ (void )getNewsList:(void(^)(SerBackDataModel*dataModel))bdata error:(void(^)(NSError * error))bError;
+
++(NSArray*)transDataToMessageCenterArray:(NSDictionary*)dic;
+
+@end

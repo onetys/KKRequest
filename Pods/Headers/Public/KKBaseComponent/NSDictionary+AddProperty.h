@@ -1,0 +1,1 @@
+../../../KKBaseComponent/KKBaseComponent/KKBaseComponent/KKCatetory/core/NSDictionary+AddProperty.h
