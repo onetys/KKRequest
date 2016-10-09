@@ -10,8 +10,6 @@
 
 #import "SerBackCodeModel.h"
 
-#import "NSDictionary+AddProperty.h"
-
 #import "MJExtension.h"
 
 @interface SerBackDataModel()
@@ -43,7 +41,7 @@
     self = [super init];
     if (self) {
         [self setValuesForKeysWithDictionary:dictionary];
-        self.data = dictionary.data;
+        self.data = dictionary[@"data"];
     }
     return self;
 }

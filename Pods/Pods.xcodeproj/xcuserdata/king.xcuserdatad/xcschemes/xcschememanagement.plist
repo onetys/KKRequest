@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>KKBaseComponent.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +22,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CC8D9DA3A4E43D0FC8211CE5E6DF2DC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>319C22DD418E92D90E03CBE23BC12ECE</key>
+		<key>3BE774780A48E208B71E1EA3D7BBA383</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '319C22DD418E92D90E03CBE23BC12ECE'
+               BlueprintIdentifier = '3BE774780A48E208B71E1EA3D7BBA383'
                BlueprintName = 'Pods-KKRequest'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-KKRequest.a'>
